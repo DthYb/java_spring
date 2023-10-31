@@ -41,7 +41,6 @@ public class HelloController {
         return "person/details";
     }
 
-
     @RequestMapping(value = "/planes")
     public String listeavion(Model model){
         List<String> planes = List.of("Boeing","Airbus");

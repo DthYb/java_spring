@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Companie d'avion</h1>
+<h1>Companie(s) d'avion(s)</h1>
 
 <ul th:unless="${planes.isEmpty()}">
         <li th:each="p: ${planes}"><span th:text="${p}"></span></li>
